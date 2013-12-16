@@ -1,0 +1,40 @@
+{
+  "name": "grunt-vendor-mutator",
+  "description": "Splits a given CSS file into browser engine specific versions to reduce prefix bloating.",
+  "version": "1.0.0",
+  "homepage": "",
+  "author": {
+    "name": "Zynga",
+    "email": "studio5@zynga.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zynga/grunt-vendor-mutator.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
