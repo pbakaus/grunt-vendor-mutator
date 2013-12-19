@@ -1,4 +1,4 @@
-# grunt-vendor-permutator
+# grunt-vendor-mutator
 
 > A Node Based Task to split a given CSS file into Vendor Specific versions to reduce prefix bloating.
 
@@ -8,19 +8,19 @@ This plugin requires Grunt `~0.4.1`
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install grunt-vendor-permutator --save-dev
+npm install grunt-vendor-mutator --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-vendor-permutator');
+grunt.loadNpmTasks('grunt-vendor-mutator');
 ```
 
 ## The "vendor_permutator" task
 
 ### Overview
-In your project's Gruntfile, add a section named `vendor_permutator` to the data object passed into `grunt.initConfig()`.
+In your project's Gruntfile, add a section named `vendor_mutator` to the data object passed into `grunt.initConfig()`.
 
 ```js
 grunt.initConfig({
