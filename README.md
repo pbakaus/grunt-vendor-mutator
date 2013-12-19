@@ -17,7 +17,7 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 grunt.loadNpmTasks('grunt-vendor-mutator');
 ```
 
-## The "vendor_permutator" task
+## The "vendor_mutator" task
 
 ### Overview
 In your project's Gruntfile, add a section named `vendor_mutator` to the data object passed into `grunt.initConfig()`.
