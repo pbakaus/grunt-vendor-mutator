@@ -27,4 +27,4 @@ grunt.loadNpmTasks('grunt-vendor-mutator');
 ### Honestly, this project just splits out CSS files into vendor specific CSS files to lower overall payloads.
 ### We can document it further than that, but ATM it's not crucial to a project.
 ### It's a big win, client side, but if you can serve your partials off AWS it is relatively low-hanging fruit.
-### I promise to provide better examples tomorrow.
+### I promise to provide better examples.
