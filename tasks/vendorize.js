@@ -16,7 +16,7 @@ module.exports = function(grunt) {
 	// Please see the Grunt documentation for more information regarding task
 	// creation: http://gruntjs.com/creating-tasks
 
-	grunt.registerMultiTask('permutateVendors', 'A Node Based Task to split a given CSS file into Vendor Specific versions to reduce prefix bloating.', function() {
+	grunt.registerMultiTask('vendorize', 'A Node Based Task to split a given CSS file into Vendor Specific versions to reduce prefix bloating.', function() {
 		// dependencies
 		var vendorizer = require('../src/Vendorizer.js');
 

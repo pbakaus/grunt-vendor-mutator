@@ -1,7 +1,7 @@
 {
   "name": "grunt-vendor-mutator",
   "description": "Splits a given CSS file into browser engine specific versions to reduce prefix bloating.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "",
   "author": {
     "name": "Zynga",

@@ -19,11 +19,23 @@ grunt.loadNpmTasks('grunt-vendor-mutator');
 
 ## The "vendor_mutator" task
 
+The task works slighty different than others, as the destination includes a placeholder:
 
+```js
+grunt.initConfig({
+  vendorize: {
+    dist: {
+      src: 'css/style.css',
+      dest: 'css/style.{vendor}.css'
+    }
+  }
+});
+```
 
+```{vendor}``` gets replaced with either webkit, gecko or trident. Running your grunt task will now produce the following destination files:
 
+- css/style.webkit.css
+- css/style.gecko.css
+- css/style.trident.css
 
-
-### TLDR, this project just splits out CSS files into vendor specific CSS files to lower overall client payloads.
-### It's a big win, client side, but if you can serve your partials off AWS it is relatively low-hanging fruit.
-### I promise to provide better examples.
+That's it, really!
